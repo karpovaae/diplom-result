@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c8fda34-f10f-4573-88aa-6c802334ee44">
+  <producedTypes>
+    <selectionType typeId="3dd59aa5-45a8-4310-a690-02877e16a1de" valueTypeId="d7839bda-0880-4f1b-bd06-6524489de3c0"/>
+    <listType typeId="9817bb53-3f78-4f2d-8e26-4526918f00fa" valueTypeId="99b644bb-b76c-4481-9c3f-cb20f42941b9"/>
+    <managerType typeId="4accb25e-f600-4322-82ab-422220b91262" valueTypeId="2248c1c4-fcb5-47c6-83f4-7e1a5385d71a"/>
+    <recordSetType typeId="9512b47c-0d85-43db-b5a1-960ea98ccb19" valueTypeId="53505bd4-1a4d-4636-a713-f20cdd8fffed"/>
+    <recordKeyType typeId="930672be-ffcf-4258-b7c4-432e5acede8c" valueTypeId="9775638c-1f9e-4455-ba79-3c814cfdc2b1"/>
+    <recordType typeId="093a09c8-b808-4700-85fe-be6bf7e077da" valueTypeId="514d0c5f-cb6a-4851-ab71-d7f2f261fcb1"/>
+  </producedTypes>
+  <name>ВКМ_Отпуска</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отпуска</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <listPresentation>
+    <key>ru</key>
+    <value>Отпуска</value>
+  </listPresentation>
+  <resources uuid="eafc611a-1c58-454d-a403-5df03c7b6bf3">
+    <name>ВКМ_Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="b07ffb7d-67c5-4b24-80c6-51397cc255ca">
+    <name>ВКМ_Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

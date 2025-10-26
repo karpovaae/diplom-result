@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="baf0242a-8016-474d-970d-7db58fc44ae3">
+  <producedTypes>
+    <objectType typeId="5eb75cc9-4c04-4d32-b1ac-9d132a14648e" valueTypeId="24b2659c-c909-4f69-8736-ffb0e759028b"/>
+    <managerType typeId="5c166970-238c-4d6b-8f6b-cf5ff7a7031d" valueTypeId="69af65b6-9680-48d1-a903-cd158d8442e8"/>
+  </producedTypes>
+  <name>ВКМ_РасходЗапланированныхОтпусков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расход запланированных отпусков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ВКМ_РасходЗапланированныхОтпусков.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="700c274c-939b-4ad8-a512-9ec0c90581a2">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

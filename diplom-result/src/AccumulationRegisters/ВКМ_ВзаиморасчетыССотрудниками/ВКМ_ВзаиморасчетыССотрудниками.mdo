@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a807135-e678-40af-bc47-61d60494cd42">
+  <producedTypes>
+    <selectionType typeId="80bea3fb-ff90-4908-83ca-b8c75433cddb" valueTypeId="619b304c-1fee-42df-90e0-4a4171f7a226"/>
+    <listType typeId="055f86e5-391f-4c12-ac68-c71509acbdf5" valueTypeId="de0e8c41-52a3-409b-84fc-17b09310317a"/>
+    <managerType typeId="84b80637-b68d-44e4-a6b9-4c9a22179691" valueTypeId="cd314461-3be9-4652-ad71-a3c84c5d0eff"/>
+    <recordSetType typeId="55e245c7-2140-41bb-8f33-ff97d623c2a4" valueTypeId="9e5d3fe4-9e48-48b0-8113-78423e046ca0"/>
+    <recordKeyType typeId="af9dca94-5a8e-402e-8015-aa6ccd4e2ad2" valueTypeId="f4ef3ff8-9c39-40cf-ae8f-a0dfd341677a"/>
+    <recordType typeId="5dd675d7-abdf-4dce-917b-dcd93640e83a" valueTypeId="693d4cbe-b8a4-41ea-b413-03ae5fd56870"/>
+  </producedTypes>
+  <name>ВКМ_ВзаиморасчетыССотрудниками</name>
+  <synonym>
+    <key>ru</key>
+    <value>Взаиморасчеты с сотрудниками</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <listPresentation>
+    <key>ru</key>
+    <value>Взаиморасчеты с сотрудниками</value>
+  </listPresentation>
+  <resources uuid="38cd5068-cf2f-4846-b67b-ad574bf9ca5f">
+    <name>ВКМ_Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="f0fd5d03-5f26-4809-8ff0-61ee59385562">
+    <name>ВКМ_Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="6a158af0-4832-44a9-a99a-83258393a15f">
+    <name>ВКМ_ВидРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид расчета</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <types>ChartOfCalculationTypesRef.ВКМ_Удержания</types>
+      <types>ChartOfCalculationTypesRef.ВКМ_ДополнительныеНачисления</types>
+      <types>ChartOfCalculationTypesRef.ВКМ_ОсновныеНачисления</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
