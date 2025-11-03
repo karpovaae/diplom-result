@@ -634,6 +634,7 @@
   <roles>Role.ВКМ_ФормированиеПросмотрОтчетаРасчетыССотрудниками</roles>
   <roles>Role.ВКМ_ФормированиеПросмотрОтчетаРасходЗапланированныхОтпусков</roles>
   <roles>Role.ВКМ_РаботаСВнешнимиОбработками</roles>
+  <roles>Role.ВКМ_ДобавлениеИзменениеОбслуживаниеКлиентаМенеджер</roles>
   <commonTemplates>CommonTemplate.ДанныеПечатиОбщиеРеквизиты</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиРегистрСимволов</commonTemplates>
   <commonTemplates>CommonTemplate.ИнструкцияКакВыполнитьНастройкуМакетаOfficeOpen</commonTemplates>
